@@ -1,0 +1,147 @@
+﻿.body {
+    background-color: burlywood;
+}
+
+.buffer {
+    margin: 2px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tileButton {
+    width: 25px;
+    height: 25px;
+    margin: 1px;
+}
+
+.tileCovered {
+    background-color: lightgrey;
+}
+
+.tileCovered.highlight {
+    background-color: yellow;
+}
+
+.tileEmpty {
+    background-color: grey;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileFlagged {
+    background-color: green;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileMine {
+    background-color: red;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileBadFlag {
+    background-color: orange;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileOne {
+    color: blue;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileTwo {
+    color: green;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileThree {
+    color: red;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileFour {
+    color: purple;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileFive {
+    color: saddlebrown;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileSix {
+    color: teal;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileSeven {
+    color: black;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.tileEight {
+    color: grey;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: 1px dashed;
+    border-color: grey;
+}
+
+.ng-invalid.ng-not-empty {
+    border-color: red;
+}
+
+.ng-valid.ng-not-empty {
+    border-color: green;
+}
+
+.stackable {
+    width: 100%;
+    position: relative;
+}
+
+.decorated-text {
+    font-size: large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.red-text {
+    color: red;
+}
+
+.green-text {
+    color: green;
+}
+
+.invalidFlagCount {
+    background-color: pink;
+}
